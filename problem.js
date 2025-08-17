@@ -1,5 +1,4 @@
 // Problem 1: Reverse a String
-
 function reverseStr(str) {
   let reverse = "";
   for (let i = str.length - 1; i >= 0; i--) {
@@ -8,6 +7,7 @@ function reverseStr(str) {
   return reverse;
 }
 // console.log(reverseStr("hello"));
+
 
 // Problem 2: Count Vowels in a String
 function vowerCount(str) {
@@ -21,6 +21,8 @@ function vowerCount(str) {
   return "In string " + count + " vowel";
 }
 // console.log(vowerCount("programming"));
+
+
 
 // Problem 3: Check for Palindrome
 function checkPalindrome(str) {
@@ -36,8 +38,9 @@ function checkPalindrome(str) {
   }
 }
 // console.log(checkPalindrome("hello"));
-// Problem 4: Find the Maximum Number
 
+
+// Problem 4: Find the Maximum Number
 function maxNumFromArray(arr) {
   let max = arr[0];
   let i = 0;
@@ -51,7 +54,6 @@ function maxNumFromArray(arr) {
 }
 
 // Problem 5: Remove Duplicates from an Array
-
 function removeDuplicate(arr) {
   let uniqueArray = [];
   for (let i = 0; i < arr.length; i++) {
@@ -63,8 +65,8 @@ function removeDuplicate(arr) {
 }
 // console.log(removeDuplicate( [1,4, 2, 2, 3, 4, 4]));
 
-// Problem 6: Sum of All Numbers in an Array
 
+// Problem 6: Sum of All Numbers in an Array
 function sumOfArray(arr) {
   let num = 0;
   for (let i = 0; i < arr.length; i++) {
@@ -73,6 +75,7 @@ function sumOfArray(arr) {
   return num;
 }
 // console.log(sumOfArray([2, 2, 2, 2]));
+
 
 // Problem 7: Find Even Numbers in an Array
 function findEven(arr) {
@@ -86,8 +89,9 @@ function findEven(arr) {
   }
   return evenArr;
 }
-
 // console.log(findEven([1, 2, 3, 4, 5, 6]));
+
+
 // Problem 8: Capitalize First Letter of Each Word
 function capitalizeWords(str) {
   let words = str.split(" ");
@@ -99,6 +103,7 @@ function capitalizeWords(str) {
   return result.join(" ");
 }
 // console.log(capitalizeWords("hello worlds"));
+
 
 // Problem 9: Find the Factorial of a Number
 function factorial(n) {
@@ -112,8 +117,8 @@ function factorial(n) {
 }
 // console.log(factorial(5));
 
-// Problem 10: PingPong Challenge
 
+// Problem 10: PingPong Challenge
 function pingPongChallenge() {
   for (let i = 0; i <= 20; i++) {
     if (i % 5 === 0) {
